@@ -1,0 +1,4 @@
+post_install () {
+  plymouth-set-default-theme spinner-custom-bg
+}
+

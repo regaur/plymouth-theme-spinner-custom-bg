@@ -1,0 +1,13 @@
+[Plymouth Theme]
+Name=spinner-custom-bg
+Description=A theme designed by jimmac that features a simple spinner. Uses background in /usr/share/backgrounds/loading.png
+ModuleName=two-step
+
+[two-step]
+ImageDir=/usr/share/plymouth/themes/spinner-custom-bg
+HorizontalAlignment=.5
+VerticalAlignment=.75
+Transition=none
+TransitionDuration=0.0
+BackgroundStartColor=0x202020
+BackgroundEndColor=0x202020
