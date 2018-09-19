@@ -1,4 +1,10 @@
 post_install () {
+  # on order to have the png available in initramfs, it cannot be a link
+  local tile='/usr/share/plymouth/themes/spinner-custom-bg/background-tile.png'
+  local rp="$(realpath ${tile})"
+  rm "${tile}"
+  cp "${rp}" "${tile}"
+  
   plymouth-set-default-theme spinner-custom-bg
 }
 

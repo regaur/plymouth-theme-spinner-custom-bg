@@ -1,7 +1,7 @@
 # Maintainer: Jan Boelsche <jan@lagomorph.de>
 
 pkgname='plymouth-theme-spinner-custom-bg'
-pkgver=1.0
+pkgver=1.1.1
 pkgrel=1
 pkgdesc="Like the spinner theme, but using /usr/share/backgrounds/loading.png"
 packager='Jan Boelsche'
